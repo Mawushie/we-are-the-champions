@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 56px;
+  padding: 24px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+.whiteText {
+  color: white;
+}
+
+.blackText {
+  color: #1b1924;
+}
+
+.borders {
+  border-radius: 8px;
+  border: none;
+}
+
+.interFont {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+textarea {
+  width: 100%;
+  height: 118px;
+  padding: 12px;
+  margin-bottom: 8px;
+  resize: none;
+  background: #444059;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background: #444059;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background: #28a9f1;
+}
+
+.endorsementsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.endorsementDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 12px;
+  width: 100%;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+h5 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.sender {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* .likes:hover {
+  opacity: 0.2;
+} */
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 520px;
+    margin: auto;
+  }
+}
