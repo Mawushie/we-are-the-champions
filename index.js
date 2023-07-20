@@ -116,7 +116,7 @@ const renderEndorsements = (endorsements) => {
                     <div class="sender">
                         <h5>From ${currentItemValue.from}</h5>
                         <h5 class="likes" data-like="${currentItemId}" >
-                            ${currentItemValue.isLiked ? "❤️" : "🖤"}${
+                            ${currentItemValue.isLiked ? "❤️" : "♡"}${
       currentItemValue.likes
     }
                         </h5>
