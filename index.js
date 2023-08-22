@@ -94,13 +94,9 @@ const handleLikes = (id) => {
           isLiked: !currentItemValue.isLiked,
         };
       }
-      // console.log(updates);
       update(exactLocationofItemInDB, updates);
     }
   });
-
-  // console.log(exactLocationofItemInDB);
-  // update(exactLocationofItemInDB);
 };
 
 const renderEndorsements = (endorsements) => {
